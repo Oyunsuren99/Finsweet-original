@@ -4,6 +4,7 @@ body {
     font-style: normal;
 }
 
+
 button {
     font-family: 'Poppins', sans-serif;
     border: 0;
@@ -54,7 +55,7 @@ button {
 }
 
 .header-place {
-    width: 1933px;
+    width: 100%;
     height: 703px;
     background-color: #DCEAF5;
     display: flex;
@@ -63,9 +64,11 @@ button {
     margin: 0 auto;
 }
 
+
+
 .header-text {
-    margin: 117px auto auto 325px;
     width: 576px;
+
 }
 
 .header-text h1 {
@@ -240,7 +243,8 @@ button {
     flex-direction: row;
     gap: 47px;
     justify-content: space-between;
-    padding-bottom: 0;
+    margin-top: 88px;
+    padding: 67px 0 51px 0;
 }
 
 .sec-exp__text h2 {
@@ -380,7 +384,8 @@ button {
 }
 
 .CTA-container {
-    widows: 1920px;
+    margin-top: 128px;
+    width: 100%;
     height: 518px;
     display: flex;
     flex-direction: row;
@@ -398,5 +403,157 @@ button {
 .sec-cta-text {
     flex: 1;
     background-color: #F58A07;
+    padding: 128px;
 }
 
+.sec-cta-text__text {
+    width: 532px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.sec-cta-text button {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F58A07;
+    padding: 19px 32px;
+    background-color: #FFFFFF;
+    border-radius: 31px;
+}
+
+.section-dream {
+    display: flex;
+    flex-direction: row;
+    margin: 128px 0;
+    gap: 110px;
+}
+
+.sec-dream-text {
+    padding: 78px;
+}
+
+.sec-dream-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin: 0;
+}
+
+.sec-dream-text__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 24px 0 40px 0;
+}
+
+.sec-dream-text__person {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#sec-dream__per-name {
+    font-weight: 500;
+    font-size: 24px;
+    color: #063255;
+    margin: 0;
+
+}
+
+#sec-dream__per-work {
+    font-weight: 500;
+    font-size: 18px;
+    color: #F58A07;
+    margin: 0;
+}
+
+.sec-dream-video {
+    position: relative;
+}
+
+.sec-dream-video__button {
+    position: absolute;
+    top: 410px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    color: #FFFFFF;
+}
+
+.sec-dream-video__button button {
+    padding: 16px 18px;
+    border-radius: 100px;
+}
+
+.last-section {
+    background-color: #DCEAF5;
+    width: 100%;
+    height: 819px;
+}
+.section-last {
+    margin-top: 96px;
+}
+
+.section-last h2 {
+    padding-top: 96px;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0,03em;
+    color: #0D1317;
+}
+
+.sec-last__post-img {
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+}
+ 
+.sec-last__post {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.sec-last__post-container {
+    background-color: #FFFFFF;
+    padding: 32px;
+}
+
+.sec-last__post-item h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0,03em;
+    color: #0D1317;
+    margin: 0;
+}
+
+.sec-last__post-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.sec-last__post-item button {
+    background-color: transparent;
+    color: #F58A07;
+}
+
+.footer {
+    width: 100%;
+    height: 463px;
+    background-color: #063255;
+}
+
+.section-footer {
+    padding: 80px 0;
+}
