@@ -179,6 +179,10 @@ a:hover {
     align-self: flex-end;
 }
 
+.header-img img {
+    display: block;
+}
+
 .section-help {
     width: 100%;
     height: 740px;
