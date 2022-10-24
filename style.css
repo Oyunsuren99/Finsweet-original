@@ -54,6 +54,15 @@ button {
     width: 1280px;
 }
 
+a {
+    text-decoration: none;
+    color: #F58A07;
+}
+
+a:hover {
+    color: brown;
+}
+
 .navbar {
     height: 84px;
     display: flex;
@@ -668,7 +677,8 @@ button {
     border: 0;
     height: 54px;
     width: 342px;
-    padding: 18px auto auto 32px;
+    padding: 18px 32px;
+    box-sizing: border-box;
 }
 
 .footer-assist__subscribe-items button {
@@ -729,14 +739,14 @@ button {
     position: relative;
 }
 
-.header-img-color {
+/*.header-img-color {
     position: absolute;
     height: 100%;
     width: 180px;
     background-color: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 19px 0 0 20px;
-}
+}*/
 
 .ser-inf-main {
     display: flex;
@@ -816,7 +826,7 @@ button {
 }
 
 .blog-header__text-text {
-    padding-top: 24px;
+    margin-top: 24px;
     line-height: 30px;
     color: #5B5B5B;
 }
@@ -824,6 +834,11 @@ button {
 .blog-header-img {
     flex: 1;
 }
+
+.blog-header-img img {
+    border-radius: 20px;
+}
+
 
 .blog-section-last {
     margin-bottom: 128px;
@@ -878,7 +893,8 @@ button {
 }
 
 .career-section {
-    padding-top: 127px;
+    margin: 128px 0;
+
 }
 
 .career-section h2 {
@@ -931,6 +947,10 @@ button {
 .bi-post-container {
     width: 752px;
     margin: 80px auto 128px auto;
+}
+
+.bi-head-img {
+    border-radius: 20px;
 }
 
 .bi-post-container h1 {
@@ -1020,7 +1040,7 @@ button {
 }
 
 .car-assist__apply {
-    margin-top: 51px;
+    margin-top: 51px ;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1037,6 +1057,7 @@ button {
     border: none;
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
+    padding: 18px 32px;
 }
 
 .car-assist__apply-item1 {
@@ -1044,31 +1065,51 @@ button {
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     height: 215px;
+    margin-bottom: 32px;
+    padding: 29px 32px;
 }
 
 .contact-header {
     display: flex;
     flex-direction: row;
     gap: 55px;
-    width: 1165px;
+    /*width: 1165px;*/
 }
 
 .contact-header-text {
     flex: 1;
 }
 
+.contact-header-text h1 {
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin-bottom: 8px;
+}
+
 .contact-header-post {
     display: flex;
     flex-direction: row;
-    gap: 76px;
+    gap: 55px;
     align-items: center;
     flex: 1;
+}
+
+.contact-header p {
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-top: 16px;
 }
 
 .contact-section {
     display: flex;
     flex-direction: row;
     gap: 55px;
+    margin-top: 64px;
+}
+
+.contact-section button{
+    align-self: flex-start;
 }
 
 .contact-section-submit {
@@ -1078,6 +1119,25 @@ button {
     gap: 16px;
 }
 
+.contact-section-submit input {
+    flex: 1;
+    border: none;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 18px 32px;
+}
+
+.contact-section-submit textarea {
+    border: none;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    height: 160px;
+    margin-bottom: 32px;
+    padding: 29px 32px;
+}
+
 .contact-section-img {
     flex: 1;
+    background-image: url("./images/map_img.png");
+    background-size: cover;
 }
